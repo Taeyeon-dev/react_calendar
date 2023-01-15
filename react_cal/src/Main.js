@@ -103,24 +103,6 @@ function Main(props) {
           }}    
       /> 
   
-          
-     
-
-      {/* <CompleteBtn >
-          <button id='finishBtn' aria-label="add" variant="extended" onClick = {() => {
-            isBtnOpen(true)
-          }}>
-            Finished Schedule
-          </button>
-     </CompleteBtn>
-    
-      <EntireBtn>
-        <button id='fullBtn' aria-label="add" variant="extended" onClick = {() => {
-          isBtnOpen(true)
-        }}>
-          Full Shcedule
-        </button>
-      </EntireBtn> */}
 
 
       <Modal id ={id_info} date = {date_info} day = {day_info} time = {time_info} todo = {todo_info}  status = {status} close={closeModal} />
@@ -137,18 +119,7 @@ const AddBtn = styled.div`
 
   }
   `
-// const CompleteBtn = styled.div`
-//   position: fixed;
-//   top: 150px;
-//   left: 30px;
-//   z-index: 10;
-//   `
-// const EntireBtn = styled.div`
-//   position: fixed;
-//   top: 200px;
-//   left: 30px;
-//   z-index: 10;
-// `
+
 
 const Word = styled.span`
   @media (max-width:425px){
