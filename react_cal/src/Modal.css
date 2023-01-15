@@ -1,0 +1,21 @@
+#deleteBtn{
+
+    width: 90px;
+    height: 25px;
+    background-color:orchid;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    color: white;
+
+}
+
+#successBtn{
+    width: 90px;
+    height: 25px;
+    background-color:crimson;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    color: white;
+}
